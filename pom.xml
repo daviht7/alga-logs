@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.algaworks.algalog</groupId>
 	<artifactId>algalog-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.11-SNAPSHOT</version>
 	<name>algalog-api</name>
 	<description>API da AlgaLog</description>
 	<properties>
@@ -27,6 +27,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
