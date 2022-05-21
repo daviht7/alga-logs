@@ -15,12 +15,11 @@ public class ClienteController {
         var cliente1 = new Cliente();
 
         cliente1.setId(1L);
-        cliente1.setNome("João");
+        cliente1.setNome("João 123");
         cliente1.setEmail("joao@gmail.com");
         cliente1.setTelefone("85994185335");
 
         return Arrays.asList(cliente1);
-
     }
 
 }
